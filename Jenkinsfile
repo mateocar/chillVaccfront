@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('build '){
             steps{
-                sh "docker build . -t chillvaccfront"
+                echo 'hola estoy en el contenedor'
             }
         }
          stage('build container'){
