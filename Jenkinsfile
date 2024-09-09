@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('build container'){
             steps{
-                sh 'docker build --tag chillVaccfront'
+                sh "docker build --tag chillVaccfront ."
             }
         }
     }
