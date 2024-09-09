@@ -3,12 +3,12 @@ pipeline{
     stages{
         stage('build '){
             steps{
-                echo 'hola estoy en el contenedor'
+                echo 'hola estoy en la imagen '
             }
         }
          stage('build container'){
             steps{
-                sh "docker run -dp 127.0.0.1:3000:3000 chillvaccfront"
+                echo 'estoy en el contenedor'
             }
         }
     }
