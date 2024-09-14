@@ -12,7 +12,7 @@ Tu puedes correr el proyecto con:
 
 ## Dockerizar
 
-Para poder tener un conedor de la app, tenemos que generar la imagen
+Para poder tener un conedor de la app, tenemos que generar la imagenn
 
 `docker build -t "nombre de la imagen" .`
 
